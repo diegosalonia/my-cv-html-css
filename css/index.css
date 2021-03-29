@@ -64,4 +64,28 @@ article ul{
 /*------------References-------------*/
 .references {
     display: flex;
+    flex-wrap: wrap;
+}
+.references article {
+    width: 50%;
+}
+
+/*------------DL-------------*/
+
+dt,
+dd {
+    line-height: 1.5em;
+    border-top: 1px solid white;
+}
+dt:last-of-type,
+dd:last-of-type {
+    border-bottom: 1px solid white;
+}
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+dt, dd {
+    flex-basis: 40%;
+    margin: 0;
 }
