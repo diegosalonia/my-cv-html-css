@@ -44,11 +44,11 @@ aside section h2:first-child {
     border-radius: 60%;
     box-shadow: 2px 2px 40px 1px #7f7caf;
 }
-/* figcaption {
+figcaption {
     font-weight: bold;
     font-size: 25px;
     letter-spacing: 5px;
-} */
+}
 /*------------Main-------------*/
 main section > h2 {
     text-transform: uppercase;
